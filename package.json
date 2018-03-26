@@ -1,0 +1,25 @@
+{
+  "name": "academydota2",
+  "version": "2.0.0",
+  "description": "nodeJS Dota 2 bot which help you create your own Ladder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./Bot/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Carlos <gabrielcarlos@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "deferred": "^0.7.9",
+    "log4js": "^2.5.3",
+    "log4js-extension": "^0.6.24",
+    "long": "^4.0.0",
+    "merge": "^1.2.0",
+    "moment": "^2.21.0",
+    "mysql": "^2.15.0",
+    "protobufjs": "^6.8.3",
+    "steam": "^1.4.0",
+    "winston": "^2.4.1"
+  }
+}
